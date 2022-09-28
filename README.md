@@ -13,7 +13,7 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
 * [Introduction](#introduction)
 * [Technologies Used](#libraries-used)
 * [Overview Of Analysis](#overview-of-analysis)
-* * * [Understanding Problem](#understanding)
+* *  [Understanding Problem](#understanding)
 * [Conclusions](#conclusions)
 * [Contributors](#contributors)
 1. Basic visualization of data 
