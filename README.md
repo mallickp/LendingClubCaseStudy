@@ -13,18 +13,18 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
 * [Introduction](#introduction)
 * [Technologies Used](#libraries-used)
 * [Overview Of Analysis](#overview-of-analysis)
-* *  [Understanding Problem](#understanding)
+  * [Basic visualization of data ](#basic-visualization-data)
+  * [Categorizing the data](#categorizing-data)
+  * [Data Cleansing ](#data-cleansing)
+  * [Segmented Univariate Analysis](#segmented-univariate-analysis)
+  * [Bivariate Analysis](#bivariate-analysis)
+  * [Derivied Variables](#derived-variables)
+  * [Plotting for visualization](#plotting-for-visualization)
+  * [Filtering data](#filtering-data)
+  * [Correlation](#correlation)
 * [Conclusions](#conclusions)
 * [Contributors](#contributors)
-1. Basic visualization of data 
-2. Categorizing the data 
-3. Data Cleansing 
-4. Segmented Univariate Analysis
-5. Bivariate Analysis
-5. Deriving new Variables
-6. Plotting for visualization
-7. Filtering data 
-8. Correlation 
+
 
 
 ## General Information
@@ -43,11 +43,37 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
 
   Complete loan data for all loans issued through the time period 2007 t0 2011.
 
+## basic-visualization-data
+
+
+## categorizing-data
+
+## data-cleansing
+
+## segmented-univariate-analysis
+
+
+## bivariate-analysis
+
+
+## derived-variables
+
+
+## plotting-for-visualization
+
+
+## filtering-data
+
+
+## correlation
+
+
 ## Conclusions
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
+
 
 ## Libraries Used
 - Numpy 
@@ -56,5 +82,5 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
 - Seaborn
 
 ## Contributors
-- Prabir Kumar Mallick
-- Sreejith Rajashekaran
+- Prabir Kumar Mallick [@mallickp]
+- Sreejith Rajashekaran [@sreejith-rajashekaran]
