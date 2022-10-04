@@ -16,9 +16,9 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
   * [Basic visualization of data ](#basic-visualization-data)
   * [Categorizing the data](#categorizing-data)
   * [Data Cleansing ](#data-cleansing)
+  * [Derivied Variables](#derived-variables)
   * [Segmented Univariate Analysis](#segmented-univariate-analysis)
   * [Bivariate Analysis](#bivariate-analysis)
-  * [Derivied Variables](#derived-variables)
   * [Plotting for visualization](#plotting-for-visualization)
   * [Filtering data](#filtering-data)
   * [Correlation](#correlation)
@@ -43,29 +43,42 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
 
   Complete loan data for all loans issued through the time period 2007 t0 2011.
 
-## basic-visualization-data
+## Basic Visualization of Data
 
+First and foremost step to perform when we get access to a data set is to visualize and understand the content present in it. Focus on the metadata, columns data and so on. In the program, we try to utilise various visualization techniques to consume the data for basic understanding.
 
-## categorizing-data
+## Categorizing the Data
 
-## data-cleansing
+We have tried to categorize the data into three parts: 
+1. Variable related to Applicants ( Demographics i.e age,employee details,occupation)
+2. Loan characterstics ( Type of loan, Amount requested,Interest loan,purpose of loan)
+3. Customer behavior varaibles (those which are generated after loan is sanctioned delinquent 2 years,revolving balance, next payment etc).
 
-## segmented-univariate-analysis
+Now the customer behavior variables will not be available during loan application request, so they can not be used to predict the credit approval.
 
+## Data Cleansing
 
-## bivariate-analysis
+The next step here would shocase how the data present in the data set can be made more accurate by implementing various cleansing techniques. 
 
+## Univariate Analysis
 
-## derived-variables
+Consuming the concepts of Univariate Analysis, we try to bring in some early inference on the data set shared. 
 
+## Derived Variables
 
-## plotting-for-visualization
+In addition to the existing columns, we try to infer additional columns based on the existing ones, that could be used for coming up with relevant data for analysis.
 
+## Bivariate Analysis
 
-## filtering-data
+Consuming the concepts of Bivariate Analysis, we try to bring in some early inference on the data set shared. 
 
+## Plotting for Visualization
 
-## correlation
+With the support of vairous graphical representations, we try to plot the data to make relevant inferences. 
+
+## Correlation
+
+Finally, we try to plot a correlation matrix, to get an indepth view inot the impact of each variate we have taken into consideration. 
 
 
 ## Conclusions
@@ -80,6 +93,7 @@ Consuming EDA as the primarily tool for performing these analysis and coming to 
 - Pandas 
 - Matplotlib
 - Seaborn
+- plotly
 
 ## Contributors
 - Prabir Kumar Mallick [@mallickp]
